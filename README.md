@@ -1,1 +1,1 @@
-# Cross_System_Authentication_using_Forecasting
+## [EuroXR2025] Cross-System Virtual Reality (VR) Authentication Using Transformer-Based Trajectory Forecasting
