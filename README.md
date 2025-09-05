@@ -1,6 +1,6 @@
 ## [EuroXR2025] Cross-System Virtual Reality (VR) Authentication Using Transformer-Based Trajectory Forecasting
 
-## :boom::boom: *Update [Sep 2025]:* We won the  $\Large{Best\ Scientific\ Paper\ Award}$ at the 22nd European Association for eXtended Reality (EuroXR) International Conference 2025!
+## :boom::boom: *Update [Sep 2025]:* We won the $\large{Best\ Scientific\ Paper\ Award}$ at the 22nd European Association for eXtended Reality (EuroXR) International Conference 2025!
 
 
 <div align="center">
@@ -55,4 +55,5 @@ python auth.py --train_for <enrollment_system> --test_for <use-time systemm> --s
 ```
 
 Use the flag ```-l``` if save the log file for all the above runs .
+
 
