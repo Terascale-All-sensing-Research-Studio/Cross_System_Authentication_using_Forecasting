@@ -14,8 +14,8 @@ If you find our work helpful please cite us:
 @inproceedings{li2025cross,
   title={Cross-System Virtual Reality (VR) Authentication Using Transformer-Based Trajectory Forecasting},
   author={Li, Mingjun and Banerjee, Natasha Kholgade and Banerjee, Sean},
-  booktitle={22nd EuroXR International Conference – EuroXR 2025},
-  pages={},
+  booktitle={International Conference on Virtual Reality and Mixed Reality},
+  pages={240--264},
   year={2025},
   organization={Springer}
 }
@@ -55,5 +55,6 @@ python auth.py --train_for <enrollment_system> --test_for <use-time systemm> --s
 ```
 
 Use the flag ```-l``` if save the log file for all the above runs .
+
 
 
