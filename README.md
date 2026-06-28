@@ -40,28 +40,44 @@ git clone https://github.com/Terascale-All-sensing-Research-Studio/Cross_System_
 pip install -r requirements.txt
 ```
 
-## Training
+## Informer Based Training
 
 ### Train a general forecasting model
 ```
-cd python
+cd Informer_code/python
 python forecast_train.py --seq_len <seq_len> --label_len <label_len> --pred_len <pred_len> --gpu <gpu_ID>
 ```
 
 ### Finetune the pretrained general forecasting model
 ```
-cd python
+cd Informer_code/python
 python finetune.py --train_for <enrollment_system> --seq_len <seq_len> --label_len <label_len> --pred_len <pred_len> --gpu <gpu_ID>
 ```
 
 ### Authentication using the finetuned forecasting model
 ```
-cd python
+cd Informer_code/python
 python auth.py --train_for <enrollment_system> --test_for <use-time systemm> --seq_len <seq_len> --label_len <label_len> --pred_len <pred_len> --gpu <gpu_ID>
 ```
 
+
+## PatchTST Based Training
+### Train a general forecasting model
+```
+cd PatchTST_code/scripts
+./general_forecast.sh
+```
+
+### Finetune the pretrained general forecasting model
+```
+cd PatchTST_code
+python cross_finetune.py --train_for <enrollment_system> --seq_len <seq_len> --label_len <label_len> --pred_len <pred_len> --gpu <gpu_ID>
+```
+
+### Authentication using the finetuned forecasting model
+```
+cd PatchTST_code
+python cross_auth.py --train_for <enrollment_system> --test_for <use-time systemm> --seq_len <seq_len> --label_len <label_len> --pred_len <pred_len> --gpu <gpu_ID>
+```
+
 Use the flag ```-l``` if save the log file for all the above runs .
-
-
-
-
